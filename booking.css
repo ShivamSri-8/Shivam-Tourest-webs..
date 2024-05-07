@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+   
+}
+.navbar {
+    /* background-color: #ff2424; */
+    overflow: hidden;
+    color: rgb(255, 255, 255);
+    padding: 18px 20px;
+    display: flex;
+    align-items: center;
+}
+.navbar .logo {
+    height: 80px;
+    margin-right: 40px;
+}
+.search-form {
+    display: flex;
+    justify-content: space-between;
+    margin: 90px 0;
+    height: 70px; /* Increase the height of the box */
+}
+.search-form input {
+    margin-right: 200px;
+    height: 100%; /* Make the input fields fill the height of the box */
+}
+.services {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+.services div {
+    text-align: center;
+}
+
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    margin-top: 20px;
+    border-top: 1px solid #ccc;
+    background-color: rgb(231, 229, 229);
+ 
+}
+footer div {
+    width: 100%;
+    height: 150px;
+    background-color: rgb(231, 229, 229);
+}
+
